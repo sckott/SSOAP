@@ -45,7 +45,7 @@ setClass("HTTPSOAPServer", representation("SOAPServer"))
 setClass("HTTPSSOAPServer", representation("HTTPSOAPServer"))
 
 setClass("FTPSOAPServer", representation("SOAPServer"),
-           prototype = list(host = "", port = as.integer(NA), url="" ))
+           prototype = list(host = "", port = as.integer(NA), path="" ))
 
 
 # A simple class to represent a complete SOAP action string
